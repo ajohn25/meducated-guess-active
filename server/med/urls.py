@@ -6,4 +6,6 @@ urlpatterns = [
     path('intro', views.intro, name = 'intro'),
     path('convo', views.convo, name = 'convo'),
     path('predict', views.predict, name = 'predict'),
+    path('question', views.question, name = 'question'),
+
 ]

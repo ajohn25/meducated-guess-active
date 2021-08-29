@@ -1,12 +1,12 @@
 <template>
-<div id="HyGglmQx_">
-  
-  <a href="/#/chatbot"> <button class="r1oRH9meO">Start Conversing!</button> </a>
-  <button class="SJ1gU9mxd">View Medical History</button>
-  <button class="rJk-Lc7ed">Settings</button>
-  <button class="Sk9f4mdWu">View Past Conversational Transcripts</button>
-  <a href="/#/"> <button class="ryMJWVrz_">Logout</button> </a>
+<div id="HyGglmQx_" v-bind:style="{backgroundImage:'url(/static/backgroundSD7.jpg)'}">
 
+  <a href="/#/chatbot"> <button class="r1oRH9meO">Start Conversing!</button> </a>
+  <!-- <button class="SJ1gU9mxd">Settings</button>
+  <button class="rJk-Lc7ed">Settings</button> -->
+  <button class="Sk9f4mdWu">Settings</button>
+  <a href="/#/"> <button class="ryMJWVrz_">Logout</button> </a>
+  <span class="HomeTitle">Meducated Guess</span>
 </div>
 </template>
 
@@ -78,6 +78,20 @@ export default {
   height: 40px;
   top: 217px;
   left: 74px;
+}
+
+.HomeTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 70px;
+  left: 73px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+
 }
 
 </style>

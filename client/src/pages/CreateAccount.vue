@@ -1,5 +1,5 @@
 <template>
-<div id="ry3eiK3kO">
+<div id="ry3eiK3kO" v-bind:style="{backgroundImage:'url(/static/backgroundSD5.jpg)'}">
   <mdc-textfield class="usernameTextField" label="Username" value="" type="text" rows="100" cols="100"></mdc-textfield>
   <mdc-textfield class="passwordTextField" label="Password" value="" type="text" rows="100" cols="100"></mdc-textfield>
   <mdc-textfield class="confirmPasswordTextField" label="Confirm Password" value="" type="text" rows="100" cols="100"></mdc-textfield>

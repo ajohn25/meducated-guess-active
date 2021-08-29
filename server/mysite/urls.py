@@ -23,8 +23,6 @@ router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
 
 urlpatterns = [
-    path('', include('med.urls')),
-    path('/', include('med.urls')),
     path('admin/', admin.site.urls),
     path('med/', include('med.urls')),
     path('', include(router.urls)),

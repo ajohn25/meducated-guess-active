@@ -1,10 +1,9 @@
 <template>
-<div id="H1xWWcKhy_">
+<div id="H1xWWcKhy_" v-bind:style="{backgroundImage:'url(/static/backgroundSD7.jpg)'}">
   <mdc-textfield class="Syl9-9t2yO" id='user' label="Username" value="" type="text" rows="100" cols="100"></mdc-textfield>
   <mdc-textfield class="rJ9Sctnku" id = 'pass' label="Password" value="" type="password" rows="100" cols="100"></mdc-textfield>
   <button class="ryiT8K4ld" @click="btnLogin_Click">Login</button>
   <a href="/#/createAccount"> <button class="H1ppLYVgu">Create Account</button> </a>
-
 </div>
 </template>
 
